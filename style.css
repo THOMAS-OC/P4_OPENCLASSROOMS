@@ -509,6 +509,13 @@ button {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
 }
+.form-control:invalid{
+    border-bottom: 2px solid red;
+}
+
+.form-control:valid{
+    border-bottom: 2px solid green;
+}
 
 .scrollToTop {
     width: 40px;
@@ -1039,4 +1046,8 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+.img-responsive{
+    width: 100%;
 }
