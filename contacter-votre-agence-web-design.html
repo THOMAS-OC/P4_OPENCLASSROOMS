@@ -11,12 +11,11 @@
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
 	
-    
-	<script src="./js/jquery-2.1.0.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/blocs.js"></script>
-	<script src="./js/jqBootstrapValidation.js"></script>
-	<script src="./js/formHandler.js"></script>
+    <script defer src="./js/jquery-2.1.0.js"></script>
+	<script defer src="./js/bootstrap.js"></script>
+	<script defer src="./js/blocs.js"></script>
+	<script defer src="./js/jqBootstrapValidation.js"></script>
+	<script defer src="./js/formHandler.js"></script>
     <title>Nous contacter / Agence Web Design la Panthère</title>
 
     
@@ -26,10 +25,8 @@
     
 </head>
 <body>
-<!-- Principal conteneur -->
-<div class="page-container">
-    
-<!-- header -->
+	
+	<!-- header -->
 <header class="bloc bgc-white l-bloc " id="bloc-0">
 	<div class="container bloc-sm">
 		<nav class="navbar row">
@@ -54,10 +51,15 @@
 		</nav>
 	</div>
 </header>
+
 <!-- header END -->
 
-<!-- bloc-6 -->
-<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
+<!-- Principal conteneur -->
+
+<main class="page-container">
+
+<!-- Section background -->
+<section class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12">
@@ -71,11 +73,11 @@
 			</div>
 		</div>
 	</div>
-</div>
-<!-- bloc-6 END -->
+</section>
+<!-- Section background END -->
 
-<!-- bloc-7 -->
-<div class="bloc bgc-white l-bloc" id="bloc-7">
+<!-- Section formulaire -->
+<section class="bloc bgc-white l-bloc" id="bloc-7">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
@@ -84,24 +86,24 @@
 						<label for="name">
 							Nom
 						</label>
-						<input id="name" type="text" class="form-control" required />
+						<input placeholder="Jean Dupont" id="name" type="text" class="form-control" required />
 					</div>
 					<div class="form-group">
 						<label for="email">
 							Adresse email
 						</label>
-						<input id="email" class="form-control" type="email" required />
+						<input placeholder="Jean83@gmail.com" id="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
 						<label for="origin">
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" required id="origin" />
+						<input placeholder="Pub, ami, réseaux pro, etc." class="form-control" required id="origin" />
 					</div>
 					<div class="form-group">
 						<label for="message">
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						</label><textarea placeholder="Trouver mon identité visuelle sur le web..." id="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
@@ -115,15 +117,11 @@
 			</div>
 		</div>
 	</div>
-</div>
-<!-- bloc-7 END -->
-
-<!-- ScrollToTop Button -->
-<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
-<!-- ScrollToTop Button END-->
+</section>
+<!-- Section formulaire END -->
 
 
-<!-- Footer - bloc-8 -->
+<!-- Footer -->
 <footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 	<div class="container bloc-sm">
 		<div class="row">
@@ -157,9 +155,9 @@
 		</div>
 	</div>
 </footer>
-<!-- Footer - bloc-8 END -->
+<!-- Footer END -->
 
-</div>
+</main>
 <!-- Principal conteneur END -->
     
 
