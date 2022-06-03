@@ -1055,4 +1055,6 @@ h4 {
 blockquote{
     font-style: italic;
     border: none;
+    color: black;
+    font-weight: lighter;
 }
