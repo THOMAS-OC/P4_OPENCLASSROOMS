@@ -517,11 +517,15 @@ button {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
 }
-.form-control:invalid{
+.form-control:focus:invalid{
     border-bottom: 2px solid red;
 }
 
 .form-control:valid{
+    border-bottom: 2px solid green;
+}
+
+.form-control:focus:valid{
     border-bottom: 2px solid green;
 }
 
