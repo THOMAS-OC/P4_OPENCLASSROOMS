@@ -1,23 +1,26 @@
 <!doctype html>
 <html lang="fr">
 <head>
-    <meta charset="utf-8">
+	
+	<meta charset="utf-8">
+	<meta name="theme-color" content="#8F522F">
     <meta name="description" content="Votre web-design réalisé par une équipe de passionnés et talentueux créateurs ! Découvrez nos réalisations et les témoignages de nos clients puis contactez-nous pour réaliser le site qui vous correspond !">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+	<link rel="apple-touch-icon" href="img/logo_icon.jpg">
     <link rel="shortcut icon" type="image/png" href="img/favicon.jpg">
-    
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="style.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
+	<link rel="stylesheet" type="text/css" href="style.min.css">
 	
-	<script defer src="./js/min/jquery-2.1.0.min.js"></script>
-	<script defer src="./js/min/bootstrap.min.js"></script>
+	<script defer src="./js/jquery-2.1.0.js"></script>
+	<script defer src="./js/bootstrap.js"></script>
 	<script defer src="./js/blocs.js"></script>
-	<script defer src="./js/min/jquery.touchSwipe.min.js" defer></script>
-	<script defer src="./js/min/gmaps.min.js"></script>
+	<script defer src="./js/jquery.touchSwipe.js"></script>
+	<script defer src="./js/gmaps.js"></script>
 
-    <title>Découvrez votre révolution web design / La Panthère</title>
+    <title>La Panthère agence web-design</title>
 
 <!-- Analytics -->
  
@@ -32,7 +35,7 @@
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="web-design.html"><img src="img/agence-la-panthere-monochrome.svg" alt="paris web design logo agence web meilleure agence" height="40" /></a>
+				<a class="navbar-brand" href="home.html"><img src="img/agence-la-panthere-monochrome.svg" alt="Logo la panthère" height="40" /></a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
@@ -40,12 +43,10 @@
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 				<ul class="site-navigation nav navbar-nav">
 					<li>
-						<a href="web-design.html">Accueil</a>
+						<a href="home.html">Accueil</a>
 					</li>
 					<li>
-					</li>
-					<li>
-						<a href="contacter-votre-agence-web-design.html">Contact</a>
+						<a href="contacter-votre-agence-home.html">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -56,30 +57,30 @@
 
 <main class="page-container">
 
-<!-- bloc-1-presentation -->
-<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax" id="bloc-1-hero">
+<!-- Section presentation -->
+<section class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax" id="bloc-1-hero">
 	<div class="container bloc-lg">
 		<div class="row tight-width-whitespace">
 			<div class="col-sm-12 text-center">
-				<img src="img/logo.png" class="center-block image-resize-mode" width="100" alt="Agence La Panthère, agence web paris, création logo paris" />
+				<img src="img/logo.png" class="center-block image-resize-mode" width="100" alt="Logo la panthère" />
 				<h1 class="text-center hero-bloc-text tc-white ">
 					Agence La Panthère
 				</h1>
 				
-				<a href="contacter-votre-agence-web-design.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
+				<a href="contacter-votre-agence-home.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
 				
 			</div>
 		</div>
 	</div>
-</div>
-<!-- bloc-1-presentation END -->
+</section>
+<!-- Section presentation END -->
 
-<!-- bloc-2-services -->
-<div class="bloc bgc-white l-bloc" id="bloc-2-services">
+<!-- Section services -->
+<section class="bloc bgc-white l-bloc" id="bloc-2-services">
 	<div class="container bloc-md">
 
 		
-		<p class="col-sm-12 text-center">L'agence La Panthère est une agence de web-design qui aides les entreprises à devenir attractives et visible sur internet</p>
+		<p class="col-sm-12 text-center">L'agence La Panthère est une agence de web-design qui aide les entreprises à devenir attractives et visible sur internet</p>
 		
 
 		<div class="row voffset-lg med-width-whitespace">
@@ -124,11 +125,11 @@
 			</div>
 		</div>
 	</div>
-</div>
-<!-- bloc-2-services END -->
+</section>
+<!-- Section services END -->
 
 <!-- bloc-3-what-i-do -->
-<div class="bloc tc-white bgc-atomic-tangerine bg-presentation d-bloc bloc-bg-texture texture-paper b-parallax" id="bloc-3-what-i-do">
+<section class="bloc tc-white bgc-atomic-tangerine bg-presentation d-bloc bloc-bg-texture texture-paper b-parallax" id="bloc-3-what-i-do">
 	<div class="container bloc-lg">
 		<div class="row tight-width-whitespace black-background">
 			<div class="col-sm-12">
@@ -136,12 +137,12 @@
 					Nous souhaitons aider les entreprises de la région Lyonnaise à se développer et à connaître le succès. Nous travaillons pour aider les entreprises locales à attirer de nouveaux clients .<br>
 				</h2>
 				<p class="text-center white">
-					Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés, qui seront facilement trouvable sur les moteurs de recherche. <br><br><a class="ltc-white bold-link" href="contacter-votre-agence-web-design.html">Contactez notre équipe</a><br>
+					Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés, qui seront facilement trouvable sur les moteurs de recherche. <br><br><a class="ltc-white bold-link" href="contacter-votre-agence-home.html">Contactez notre équipe</a><br>
 				</p>
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 <!-- bloc-3-what-i-do END -->
 
 <!-- Section portfolio -->
@@ -154,7 +155,7 @@
 		</div>
 		<div class="row tight-width-whitespace portfolio-row">
 			<article class="col-sm-6">
-				<a href="#" data-lightbox="img/catalogue.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/catalogue.jpg" alt="paris web design logo agence web meilleure agence et refonte site web journal" class="img-responsive portfolio-thumb" /></a>
+				<a href="#" data-lightbox="img/catalogue.webp" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/catalogue.webp" alt="Catalogues empilés" class="img-responsive portfolio-thumb" /></a>
 				<h3 class="mg-md text-center">
 					Refonte d'un site web pour un journal local
 				</h3>
@@ -163,7 +164,7 @@
 				</p>
 			</article>
 			<article class="col-sm-6">
-				<a href="#" data-lightbox="img/jeune-femme-qui-prend-des-photos.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img src="img/jeune-femme-qui-prend-des-photos.jpg" class="img-responsive portfolio-thumb" alt="paris web design logo agence web meilleure agence, Création d'un site web pour photographes" /></a>
+				<a href="#" data-lightbox="img/jeune-femme-qui-prend-des-photos.webp" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img src="img/jeune-femme-qui-prend-des-photos.webp" class="img-responsive portfolio-thumb" alt="Jeune femme qui pratique la photographie pour designer son site" /></a>
 				<h3 class="mg-md text-center">
 					Création d'un site web pour photographes
 				</h3>
@@ -174,7 +175,7 @@
 		</div>
 		<div class="row tight-width-whitespace portfolio-row">
 			<article class="col-sm-6">
-				<a href="#" data-lightbox="img/matériel-numérique-dun-voyageur.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="img/matériel-numérique-dun-voyageur.jpg" class="img-responsive portfolio-thumb" alt="paris web design logo agence web meilleure agence, Création d'un site web pour voyageur"/></a>
+				<a href="#" data-lightbox="img/materiel-numérique-dun-voyageur.webp" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="img/materiel-numérique-dun-voyageur.webp" class="img-responsive portfolio-thumb" alt="Equipement numérique et photographique d'un voyageur"/></a>
 				<h3 class="mg-md text-center">
 					Création d'un site internet pour un voyageur
 				</h3>
@@ -183,7 +184,7 @@
 				</p>
 			</article>
 			<article class="col-sm-6">
-				<a href="#" data-lightbox="img/bureau-de-travail-agence-de-mariage.jpg" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img src="img/bureau-de-travail-agence-de-mariage.jpg" class="img-responsive portfolio-thumb" alt="paris web design logo agence web meilleure agence, Création d'un site web pour agence de mariage" /></a>
+				<a href="#" data-lightbox="img/bureau-de-travail-agence-de-mariage.webp" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img src="img/bureau-de-travail-agence-de-mariage.webp" class="img-responsive portfolio-thumb" alt="bureau de travail d'une agence de mariage" /></a>
 				<h3 class="mg-md text-center">
 					Conception d'un site pour une agence de mariage
 				</h3>
@@ -197,20 +198,22 @@
 </section>
 <!-- bloc-4-portfolio END -->
 
-<!-- bloc-5-cta -->
-<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper" id="bloc-5-cta">
+<!-- Section contact -->
+<section class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper" id="bloc-5-cta">
 	<div class="container bloc-lg">
 		<div class="row">
 			<h2 class="mg-md text-center tc-white">
 				Prêt pour redonner vie à votre projet ?<br>Contactez notre équipe !
 			</h2>
 			<div class="col-sm-12 text-center">
-				<a href="contacter-votre-agence-web-design.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Contact</a>
+				<a href="contacter-votre-agence-home.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Contact</a>
 			</div>
 		</div>
 	</div>
-</div>
-<!-- bloc-5-cta END -->
+</section>
+<!-- Section contact END -->
+
+<button aria-label="back to top, remontage" class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></button>
 
 <!-- Footer - bloc-8 -->
 <footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
@@ -223,22 +226,22 @@
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="web-design.html"><span class="fa fa-twitter icon-md"></span></a>
+							<a class="social" aria-label="Lien du profil Twitter de la Panthère" href="#"><span class="fa fa-twitter icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="web-design.html"><span class="fa fa-facebook icon-md"></span></a>
+							<a class="social" aria-label="Lien du profil Facebook de la Panthère" href="#"><span class="fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="web-design.html"><span class="fa fa-dribbble icon-md"></span></a>
+							<a class="social" aria-label="Lien du profil twitter de la Panthère" href="#"><span class="fa fa-dribbble icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="web-design.html"><span class="fa fa-instagram icon-md"></span></a>
+							<a class="social" aria-label="Lien du profil Dribbble de la Panthère" href="#"><span class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
 				</div>
