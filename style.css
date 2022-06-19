@@ -517,6 +517,8 @@ button {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
 }
+
+
 .form-control:focus:invalid{
     border-bottom: 2px solid red;
 }
